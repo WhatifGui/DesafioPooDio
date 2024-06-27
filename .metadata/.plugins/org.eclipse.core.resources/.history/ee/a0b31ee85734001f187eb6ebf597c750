@@ -1,0 +1,7 @@
+package com.desafiopoo;
+
+public class Conteudo {
+	//ATRIBUTO 
+	protected static final double XP_PADRAO = 10d;
+
+}

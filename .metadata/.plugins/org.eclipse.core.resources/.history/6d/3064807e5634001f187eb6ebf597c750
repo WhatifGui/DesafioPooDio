@@ -1,0 +1,5 @@
+package com.desafiopoo;
+
+public class Bootcamp {
+	private String nome;
+}

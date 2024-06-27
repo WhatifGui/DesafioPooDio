@@ -1,0 +1,10 @@
+package com.desafiopoo;
+
+import java.time.LocalDate;
+
+public class Bootcamp {
+	//ATRIBUTO
+	private String nome;
+	private String descricao;
+	private final LocalDate datainicial = LocalDate.now();
+}

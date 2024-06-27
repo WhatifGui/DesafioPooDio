@@ -1,0 +1,6 @@
+package com.desafiopoo;
+
+public class Devs {
+	private String nome;
+	private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
+}

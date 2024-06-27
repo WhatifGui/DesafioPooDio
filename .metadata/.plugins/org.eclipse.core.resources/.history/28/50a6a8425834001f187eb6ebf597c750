@@ -1,0 +1,10 @@
+package com.desafiopoo;
+
+public class Cursos extends Conteudo {
+	//ATRIBUTO
+	private int cargaHoraria;
+	
+	public double calcularXP() {
+		
+	}
+}
