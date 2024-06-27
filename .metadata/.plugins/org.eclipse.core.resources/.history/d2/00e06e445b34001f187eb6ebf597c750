@@ -28,9 +28,9 @@ public class Main {
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Java Developer");
         bootcamp.setDescricao("Descrição Bootcamp Java Developer");
-        bootcamp.getConteudo().add(curso1);
-        bootcamp.getConteudo().add(curso2);
-        bootcamp.getConteudo().add(mentoria);
+        bootcamp.getConteudos().add(curso1);
+        bootcamp.getConteudos().add(curso2);
+        bootcamp.getConteudos().add(mentoria);
 
         Devs devGui = new Devs();
         devGui.setNome("Camila");
@@ -58,5 +58,5 @@ public class Main {
         System.out.println("XP:" + devJoao.calcularTotalXp());
 
     }
+	}
 }
-

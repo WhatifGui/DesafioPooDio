@@ -48,7 +48,7 @@ public class Bootcamp {
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(conteudo, dataFinal, dataInicial, descricao, nome, setDevs, feedback);
+		return Objects.hash(conteudo, dataFinal, dataInicial, descricao, nome, setDevs);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -61,7 +61,7 @@ public class Bootcamp {
 		Bootcamp other = (Bootcamp) obj;
 		return Objects.equals(conteudo, other.conteudo) && Objects.equals(dataFinal, other.dataFinal)
 				&& Objects.equals(dataInicial, other.dataInicial) && Objects.equals(descricao, other.descricao)
-				&& Objects.equals(nome, other.nome) && Objects.equals(setDevs, other.setDevs) && Objects.equals(feedback, other.feedback);
+				&& Objects.equals(nome, other.nome) && Objects.equals(setDevs, other.setDevs);
 	}
 	public double getFeedback() {
 		return feedback;
