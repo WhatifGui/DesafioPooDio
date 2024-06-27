@@ -5,7 +5,6 @@ public abstract class Conteudo {
 	protected static final double XP_PADRAO = 10d;
 	private String titulo;
 	private String descricao;
-	private double notaFeedBack;
 	
 	public abstract double calcularXP();
 	
@@ -23,14 +22,6 @@ public abstract class Conteudo {
 	}
 	public static double getXpPadrao() {
 		return XP_PADRAO;
-	}
-
-	public double getNotaFeedBack() {
-		return notaFeedBack;
-	}
-
-	public void setNotaFeedBack(double notaFeedBack) {
-		this.notaFeedBack = notaFeedBack;
 	}
 	
 	

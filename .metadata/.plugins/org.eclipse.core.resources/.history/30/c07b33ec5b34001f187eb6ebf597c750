@@ -24,14 +24,6 @@ public abstract class Conteudo {
 	public static double getXpPadrao() {
 		return XP_PADRAO;
 	}
-
-	public double getNotaFeedBack() {
-		return notaFeedBack;
-	}
-
-	public void setNotaFeedBack(double notaFeedBack) {
-		this.notaFeedBack = notaFeedBack;
-	}
 	
 	
 

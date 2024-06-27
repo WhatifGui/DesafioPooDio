@@ -26,6 +26,9 @@ public abstract class Conteudo {
 	}
 
 	public double getNotaFeedBack() {
+		if (getNotaFeedBack() == 0) {
+			System.out.println("SEM AVALIAÇÃO");
+		}
 		return notaFeedBack;
 	}
 

@@ -26,6 +26,7 @@ public abstract class Conteudo {
 	}
 
 	public double getNotaFeedBack() {
+		if (getNotaFeedBack() = 0) {
 		return notaFeedBack;
 	}
 
